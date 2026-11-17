@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.vscode/
+
+# dataset (too large, download from Kaggle instead)
+dataset/raw/
+dataset/train/
+dataset/val/
+
+# uploaded images and trained model
+uploads/*
+!uploads/.gitkeep
+models/*.keras
+!models/.gitkeep
